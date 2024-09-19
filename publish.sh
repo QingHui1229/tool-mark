@@ -11,4 +11,4 @@ set -e
 
 npm run build
 
-npm publish --registry=https://registry.npmmirror.com
+npm publish
