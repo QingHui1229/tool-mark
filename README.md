@@ -1,2 +1,9 @@
 # tool-mark
-标记工具
+canvas绘制标记组件
+
+## 开发
+
+```shell
+npm i
+npm run dev
+```

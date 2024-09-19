@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "emitDeclarationOnly": true, // 只生成声明文件
+        "declaration": true,
+        "jsx": "react-jsx",
+        "outDir": "./lib",
+        "baseUrl": "./",
+        "paths": {
+            "@": ["./src/*"],
+            "@sdk": ["./src/sdk/*"],
+            "@mark": ["./src/mark/*"]
+        },
+        "types": ["node", "webpack-env", "vite/client"]
+    },
+    "include": ["**/*.ts", "vite.config.js", "src/router/index.tsx"],
+    "exclude": ["node_modules", "example"]
+}

@@ -1,0 +1,19 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "bracketSpacing": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "jsxBracketSameLine": false,
+    "printWidth": 120,
+    "semi": true,
+    "overrides": [
+      {
+        "files": ".prettierrc",
+        "options": {
+          "parser": "typescript"
+        }
+      }
+    ]
+  }
+  

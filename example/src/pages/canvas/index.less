@@ -1,0 +1,51 @@
+.tool-mark-base {
+    height: calc(100vh - 90px);
+    display: flex;
+    &-title {
+        height: 32px;
+        line-height: 32px;
+        padding-left: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 12px 0;
+        border-bottom: solid 1px #eee;
+    }
+    &-left {
+        width: 300px;
+        padding: 16px;
+        overflow: hidden;
+        border-right: 1px solid #eee;
+        .btn {
+            min-width: 60px;
+            padding: 4px 8px;
+            margin: 4px 8px;
+        }
+    }
+    &-content {
+        flex: 1;
+        canvas {
+            background-color: #eee;
+        }
+    }
+    &-right {
+        width: 300px;
+        padding: 16px;
+        overflow: scroll;
+        border-left: 1px solid #eee;
+        &-content {
+        }
+    }
+    &-form-item {
+        height: 30px;
+        margin-top: 8px;
+        display: flex;
+        line-height: 30px;
+        label {
+            width: 84px;
+        }
+        .ant-input {
+            width: 120px;
+            margin-left: 12px;
+        }
+    }
+}
